@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.centre-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading {
+    width: 100%;
+    line-height: 80px;
+    font-size: 1.4rem;
+    background: -webkit-linear-gradient(right, #5572ff, #8811c5);
+    font-family: 'Bungee Inline', cursive;
+}
+
+form {
+    width: 400px;
+}
